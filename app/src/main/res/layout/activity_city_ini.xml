@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityIni">
+    <TextView
+        android:id="@+id/label_city_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select city"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/button_city_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        android:layout_below="@+id/label_city_select"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/button_city_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@+id/button_city_select"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/button_city_next"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/label_city_ini_result"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

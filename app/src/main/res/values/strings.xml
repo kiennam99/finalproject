@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">finalproject</string>
+    <string name="dialog_title">Group choices</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_clear_all">Clear all</string>
+    <string-array name="GroupList">
+        <item>資訊學群</item>
+        <item>工程學群</item>
+        <item>數理化學群</item>
+        <item>醫藥衛生學群</item>
+        <item>生命科學學群</item>
+        <item>生物資源學群</item>
+        <item>地球與環境學群</item>
+        <item>建築與設計學群</item>
+        <item>藝術學群</item>
+        <item>社會與心理學群</item>
+        <item>大眾傳播學群</item>
+        <item>外語學群</item>
+        <item>文史哲學群</item>
+        <item>教育學群</item>
+        <item>法政學群</item>
+        <item>管理學群</item>
+        <item>財經學群</item>
+        <item>遊憩與運動學群</item>
+    </string-array>
+    <string-array name="CityList">
+        <item>臺北市</item>
+        <item>桃園市</item>
+        <item>臺中市</item>
+        <item>新竹市</item>
+        <item>嘉義縣</item>
+        <item>高雄市</item>
+        <item>臺南市</item>
+    </string-array>
+</resources>
